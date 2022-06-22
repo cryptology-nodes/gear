@@ -58,3 +58,6 @@ sudo systemctl restart systemd-journald &>/dev/null
 sudo systemctl daemon-reload &>/dev/null
 sudo systemctl enable gear &>/dev/null
 sudo systemctl restart gear &>/dev/null
+
+echo "Нода Успешно установлена и работает"
+echo "-----------------------------------------------------------------------------"
